@@ -10,6 +10,7 @@
 </head>
 
 <body>
+<div class="container">
   <ul class="navbar">
     <li><a href="#bio">About</a></li>
     <li><a href="#portfolio">Portfolio</a></li>
@@ -18,50 +19,55 @@
   </ul>
 
   <header>
-    <img class="headshot" src="headshot.jpg" alt="marta-delgado-picture" onmouseover="this.src='travel.JPG';" onmouseout="this.src='headshot.jpg';"> <br>
+    <img src="headshot2.png" alt="marta-delgado-picture">
+    <!-- onmouseover="this.src='travel.JPG';" onmouseout="this.src='headshot.jpg';" -->
     <span> Marta Delgado Eizaguirre. Web Developer </span>
   </header>
 
   <div id="bio">
-    <div id="about"> A B O U T  </div>
-    Creative programmer based in Barcelona.
+    <h1> A B O U T  </h1>
+    <p> Creative programmer based in Barcelona.
     Fascinated by code and all the possibilities it brings to the digital world.
     Loves a challenge and the satisfaction of solving a problem.
     Passionate about life and bettering the world through social interaction. <br>
-    Avid wine drinker, sushi eater & dog petter.
+    Avid wine drinker, sushi eater & dog petter. <p>
   </div>
 
-  <div id="portfolio">P O R T F O L I O</div>
+  <div id="portfolio">
+  <h1> P O R T F O L I O</h1>
   <div class="project">
-    <img src="travel.JPG" alt="Generic placeholder image" width="180" height="175">
+    <div class=image-container> <img src="travel.png" alt="travel image"> </div>
     <a href="https://temploy.herokuapp.com/" target="_blank"> <h2>Travel App </h2> </a>
-    <p>Web application for users to post and search for secret travel spots. Created with MongoDB, ExpressJS, Angular2 and NodeJS.</p>
+    <p>Web application for users to post and search for secret travel spots. MongoDB, ExpressJS, Angular2, NodeJS.</p>
   </div>
 
   <div class="project">
-    <img src="temploy.png" alt="Generic placeholder image" width="180" height="175">
+    <div class=image-container>  <img src="travel.png" alt="jobboard image"> </div>
     <a href="https://temploy.herokuapp.com/" target="_blank"> <h2>Temploy</h2> </a>
-    <p>Simple web app designed to post job offers or view job listings. First full stack web application I developed at Ironhack Academy. </p>
+    <p>Web application designed to post job offers or view job listings. First full stack web application I developed. </p>
   </div>
 
   <div class="project">
-    <img src="game.png" alt="Generic placeholder image" width="180" height="175">
+    <div class=image-container>  <img src="travel.png" alt="tic tac toe image"> </div>
     <a href="https://temploy.herokuapp.com/" target="_blank"> <h2>Tic Tac Toe</h2> </a>
-    <p>Simple web app designed to post job offers or view job listings. First full stack web application I developed at Ironhack Academy. </p>
+    <p>Simple game created to test HTML, CSS and JQuery. First project created at Ironhack Academy. </p>
+  </div>
   </div>
 
   <div id="skills">
-    <div id="tech"> T E C H<br>N O L O<br>G I E S </div>
-    <div id="tech-list"> Javascript<br> HTML5  CSS3   Bootstrap <br> JQuery   Angular2 <br> NodeJS  ExpressJS MongoDB </div>
+    <p> T E C H<br>N O L O<br>G I E S </p>
+    <span> Javascript<br> HTML5  CSS3   Bootstrap <br> JQuery   Angular2 <br> NodeJS  ExpressJS MongoDB </span>
+  </div>
   </div>
 
-  <div id="contact">
-    Marta Delgado <br>
-    Barcelona, Spain <br>
-    625.392.083 <br>
-    <a href="mailto:marta.e.delgado@gmail.com">marta.e.delgado@gmail.com</a> <br>
-    <a href="https://github.com/martadelgado" target="_blank">GitHub</a> <br>
-    <a href="https://www.linkedin.com/in/marta-delgado-2b010b60/">LinkedIn</a>
-  </div>
+
+  <footer id="contact">
+  <p> Marta Delgado, Barcelona, 625.392.083
+  <a href="mailto:marta.e.delgado@gmail.com">marta.e.delgado@gmail.com</a>
+  <a href="https://github.com/martadelgado" target="_blank">GitHub</a>
+  <a href="https://www.linkedin.com/in/marta-delgado-2b010b60/">LinkedIn</a>
+  </p>
+  </footer>
+
 </body>
 </html>
