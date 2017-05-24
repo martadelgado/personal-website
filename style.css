@@ -1,15 +1,15 @@
 body {
-  background-color: #d8eaf0;
+  background-color: #E0EEEE;
   font-family: 'Open Sans Condensed', sans-serif;
 }
 
 a {
   text-decoration: none;
-  color: #19198c;
+  color: #2F4F4F;
 }
 
 a:visited {
-  color: #19198c;
+  color: #2F4F4F;
 }
 
 .container {
@@ -61,7 +61,7 @@ header span {
 /*MAIN CONTENT*/
 h1 {
   text-align: center;
-  background-color: black;
+  background-color: #2F4F4F;
   width: 35%;
   border-radius: 3px;
   color: white;
@@ -112,7 +112,7 @@ p {
 #skills p {
   width: 25%;
   height: auto;
-  background-color: black;
+  background-color: #2F4F4F;
   color: white;
   font-size: 3em;
   float: left;
@@ -139,4 +139,46 @@ footer {
 
 footer span {
   margin-left: 5%;
+}
+
+@media only screen and (max-width: 480px) {
+  header span {
+    font-size: 14px;
+  }
+
+  h1 {
+    width: 50%;
+    font-size: 20px;
+  }
+
+  .navbar {
+    word-spacing: 20px;
+  }
+
+  .navbar li {
+    font-size: 16px;
+  }
+
+  #bio p {
+    font-size: 14px;
+  }
+
+   .project  {
+     width: 100%;
+     font-size: 12px;
+   }
+
+   #skills p {
+     font-size: 20px;
+   }
+
+   #skills span {
+     font-size: 12px;
+     word-spacing: 20px;
+   }
+
+   footer {
+     font-size: 16px;
+   }
+
 }
