@@ -142,12 +142,17 @@ footer span {
 }
 
 @media only screen and (max-width: 480px) {
+  .container {
+    width: 80%;
+    margin-left: 10%;
+  }
+
   header span {
     font-size: 14px;
   }
 
   h1 {
-    width: 50%;
+    width: 70%;
     font-size: 20px;
   }
 
@@ -160,12 +165,15 @@ footer span {
   }
 
   #bio p {
-    font-size: 14px;
+    font-size: 18px;
   }
 
    .project  {
      width: 100%;
-     font-size: 12px;
+   }
+
+   .project p {
+     font-size: 18px;
    }
 
    #skills p {
@@ -173,7 +181,7 @@ footer span {
    }
 
    #skills span {
-     font-size: 12px;
+     font-size: 14px;
      word-spacing: 20px;
    }
 
