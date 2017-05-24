@@ -142,12 +142,24 @@ footer span {
 }
 
 @media only screen and (max-width: 480px) {
+<<<<<<< HEAD
+=======
+  .container {
+    width: 80%;
+    margin-left: 10%;
+  }
+
+>>>>>>> gh-pages
   header span {
     font-size: 14px;
   }
 
   h1 {
+<<<<<<< HEAD
     width: 50%;
+=======
+    width: 70%;
+>>>>>>> gh-pages
     font-size: 20px;
   }
 
@@ -160,12 +172,23 @@ footer span {
   }
 
   #bio p {
+<<<<<<< HEAD
     font-size: 14px;
+=======
+    font-size: 18px;
+>>>>>>> gh-pages
   }
 
    .project  {
      width: 100%;
+<<<<<<< HEAD
      font-size: 12px;
+=======
+   }
+
+   .project p {
+     font-size: 18px;
+>>>>>>> gh-pages
    }
 
    #skills p {
@@ -173,7 +196,11 @@ footer span {
    }
 
    #skills span {
+<<<<<<< HEAD
      font-size: 12px;
+=======
+     font-size: 14px;
+>>>>>>> gh-pages
      word-spacing: 20px;
    }
 
